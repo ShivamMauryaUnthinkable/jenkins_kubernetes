@@ -7,7 +7,6 @@ metadata:
     app: nginx
 spec:
   containers:
-  imagePullPolicy: Never
   - name: mynginx
     image: shivam286/newnginx:latest
     ports:
