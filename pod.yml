@@ -6,6 +6,6 @@ spec:
   containers:
   imagePullPolicy: Never
   - name: mynginx
-    image: nginx
+    image: shivam286/newnginx:latest
     ports:
     - containerPort: 80
